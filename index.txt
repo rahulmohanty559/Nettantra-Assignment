@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetTantra Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div>
+        <h2 style="color: #106adfbd; margin-left: 30px;">Nettantra Technologies</h2>
+    </div>
+
+    <div>
+        <h2 style="text-align: center;">Assignment</h2>
+           <h2 class="slot"> Basic Vaccine Slot
+            Booking</h2>
+    </div>
+
+    <div class="container">
+    <h3 >Name: 
+        <input type="text" id="name" placeholder="Enter your Name">
+    </h3>
+    <h3 >Email: 
+        <input  type="email" id="email" placeholder="Enter your Email">
+    </h3>
+    <h3 >Age: 
+        <input type="number" id="age" placeholder="Enter your Age">
+    </h3>
+    <h3>Phone: 
+        <input type="number" id="phone" placeholder="Enter your Phone">
+    </h3>
+    <h3>Adhaar: 
+        <input type="number" id="adhaar" placeholder="Enter your Aadhaar">
+    </h3>
+    <h3>Address: 
+        <input type="text" id="address" placeholder="Enter your Address">
+    </h3>
+    <h3>Date: 
+        <input type="date" id="date" placeholder="Enter your Date">
+    </h3>
+    <button type="submit" onclick="saveData()" id="btn">Sumbit</button>
+</div>
+
+    <div class="col-sm-6">
+        <h2 style="text-align: center;">Users Table</h2>
+        <div class="row" style="display: flex; justify: content;">
+            <div style="margin-left: 50px;" ><h3>Name</h3></div>
+            <div style="margin-left: 50px;" ><h3>Email</h3></div>
+            <div style="margin-left: 50px;" ><h3>Age</h3></div>
+            <div style="margin-left: 50px;" ><h3>Phone</h3></div>
+            <div style="margin-left: 50px;" ><h3>Adhaar</h3></div>
+            <div style="margin-left: 50px;" ><h3>Address</h3></div>
+            <div style="margin-left: 50px;" ><h3>Date</h3></div>
+        </div>
+        <div id="showUser">
+            
+        </div>
+    </div>
+
+<script src="userScript.js"></script>
+</body>
+</html>
